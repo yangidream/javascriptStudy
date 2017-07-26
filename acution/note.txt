@@ -1,0 +1,6 @@
+github   AdminLTE
+
+
+cnpm install admin-lte --save
+
+cnpm install --save bootstrap
