@@ -17,6 +17,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { StockFormComponent } from './stock/stock-form/stock-form.component';
 import {StockService} from "./stock/stock.service";
 import { StockFilterPipe } from './stock/stock-filter.pipe';
+import {SocketServer} from "./header/socket.server";
 
 const routerConfig: Routes = [
   {path: 'stock', component: StockManageComponent},
@@ -46,7 +47,7 @@ const routerConfig: Routes = [
     ReactiveFormsModule,//响应式
     RouterModule.forRoot(routerConfig)
   ],
-  providers: [StockService],
+  providers: [StockService,SocketServer],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

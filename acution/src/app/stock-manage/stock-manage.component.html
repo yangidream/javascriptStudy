@@ -23,7 +23,7 @@
         <th>stockGrade</th>
         <th>operate</th>
       </tr>
-      <tr *ngFor="let stock of stocks | stockFilter:'name':keywork;let i=index;">
+      <tr *ngFor="let stock of stocks | async;let i=index;">
         <td>{{i+1}}</td>
         <td>{{stock.name}}</td>
         <td>{{stock.price}}</td>

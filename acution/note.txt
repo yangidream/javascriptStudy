@@ -4,3 +4,13 @@ github   AdminLTE
 cnpm install admin-lte --save
 
 cnpm install --save bootstrap
+
+
+
+
+------------------------
+
+构建：编译和合并
+部署：与服务器整合
+多环境：一套代码支持多种环境
+
