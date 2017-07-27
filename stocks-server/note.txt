@@ -1,0 +1,18 @@
+npm init
+
+npm install --save express
+
+npm install --save ws
+
+npm install --save @types/node
+
+npm install --save @types/express
+
+npm install --save @types/ws
+
+-----------------------------------
+
+学习内容：总结
+
+  http服务，它来自HttpModule,只有在调subscribe时才发请求；
+  WebSocket协议，它更简单和高效，它是双向的
